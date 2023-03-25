@@ -1,0 +1,13 @@
+* {
+    background-color: cadetblue;
+}
+
+div h1 {
+    color: white;
+}
+
+.seccion {  /* asi se declara un referencia a una clase*/
+    border: 1px solid white;  /* genera un controno visible*/
+    padding: 5px; /* da un espacio interior al borde*/
+    margin: 10px; /* da un espacio exterior entre los elementos */
+}

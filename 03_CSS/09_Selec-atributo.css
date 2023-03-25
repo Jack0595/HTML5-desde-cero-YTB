@@ -1,0 +1,39 @@
+body {
+    font-family: Georgia;
+    font-size: 90%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 1em 0;
+}
+
+a { 
+    text-decoration: none;
+    color: black;
+}
+
+a[title*="visitar"] {
+    color: green;
+}
+/*
+p[class~="red"] {
+    color: red;
+}    
+*/
+
+p[class="red"] {
+    color:red;
+}
+
+a[hre^="http://"] {
+    color: blue;
+}
+
+a[href$=pdf] {
+    font-size: 40px;
+}
+

@@ -1,0 +1,38 @@
+/*
+Selectores de Elementos
+p {
+    background: #ccC;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: red;
+}
+*/
+
+/* Selectores Descendientes*/
+body {
+    background: aliceblue;
+}
+
+body p {
+    background: #333;
+    color: white;
+}
+
+/* revissar el nivel de jerarquia segun que se invoque*/
+body p a {
+    font-size: 20px;
+    color: yellow;
+} 
+
+body a {
+    color: red;
+}
+
+
+
+

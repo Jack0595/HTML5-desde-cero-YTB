@@ -1,0 +1,32 @@
+* {
+    background-color: cadetblue;
+    /* color: black  !important;   aplicacion de important */
+ }
+
+div h1{
+    color: white;
+}
+
+.seccion {
+    border: 1px solid white;
+}
+
+h1#encabezado {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+section.seccion {
+    color: white;
+    margin-bottom: 40px;
+    border: 1px solid red;
+}
+
+.section #texto {
+    background-color: yellow;
+}
+
+#primera.seccion {
+    padding: 50px;
+    border: 6px solid white;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Curso html5 Audio y video</title>
+    </head>
+
+    <body>
+        <h1>Inserta Audio y Video en html5</h1>
+
+        <audio autoplay src="[ED3][Anime][Kami_Nomi_zo_Shiru_Sekai_Megami-hen]_2B_PENCILS_Nakagawa_Kanon_CV_Touyama_Nao_-Hajimete_Koi_wo_Shita_Kioku.mp3" controls> <!-- controls se ussa para mostrar una consola de audio-->
+        </audio>    <!-- autoplay es para que el audio o video comienze una vez cargada la pagina
+                        solo funcionara si lo reproduciodo esta dentro de la panatalla, si es muy grande no cargara-->
+
+        <audio controls>
+            <source src="[ED3][Anime][Kami_Nomi_zo_Shiru_Sekai_Megami-hen]_2B_PENCILS_Nakagawa_Kanon_CV_Touyama_Nao_-Hajimete_Koi_wo_Shita_Kioku.mp3"/>
+        </audio>  <!-- source es para darle compatibilidad automatica al formato de audio dependiendo
+                    del navegador usado-->
+        
+        <br>            
+        <video autoplay src="Shakira   Las de la Intuición.webm" controls width="50%" height="50%">
+        </video>
+
+        <video controls width="50%" height="50%">
+            <source src="Shakira   Las de la Intuición.webm"/>
+        </video>
+        
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GKlpL4FhzUs" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </body>
+</html>

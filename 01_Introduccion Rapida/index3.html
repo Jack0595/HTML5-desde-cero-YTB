@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Curso de HTML5</title>
+    </head>
+
+    <body>
+        <h1>Boton en HTML5</h1>
+
+        <button onclick="alert('Haz hecho clik')"> <!-- Se agrega un pco de JSS para generar un evento al boton-->
+            Haz clik aqui  <!-- Esta instruccion sola hace un boton que no hace nada-->
+        </button>
+
+        <form action="" method="" enctype="multipart/form-data"> <!-- con multi es para mardar las fotos/archivos al servidor-->
+            <label for="name"> <!-- se agrega label paar relacionar elementos, foy y id para enlazarlos -->
+                Nombre:
+            </label>
+            <input id="name" type="text" name="name" placeholder="Pon tu nombre aqui"/> <!-- name almacena el dato para mandarlo a servidor-->
+            <input type="number" placeholder="Pon tu edad aqui"/>
+            <input type="password" placeholder="Pon tu contraseña aqui"/>
+            <input type="color" placeholder="Pon tu color favorito aqui"/>
+            <input type="date" placeholder="Pon tu fecha de nacimiento"/>
+            <input type="time" placeholder="Pon la hora aqui"/>
+
+            <div>
+                <br>  <!-- esta es para dar un espacio entre elementos, pero se recomeinda mas usar CSS-->
+                <label for="name">
+                    Foto de Perfil:
+                </label>   <!--perimte subir archivos, multiple es para subir varios a la vez-->
+                <input type="file" placeholder="Sube tu foto de perfil" multiple="True"/>
+            </div>
+
+            <h3>Gustos</h3>
+            <label>
+                <input type="Checkbox"/> Cocinar <!-- Cuadro seleccionador, puedes seleccionar varios elementos-->
+            </label>
+            <label>
+                <input type="checkbox"/> Ver Netflix
+            </label>
+            <label>
+                <input type="checkbox"> Suscribirme
+            </label>
+
+            <h3>Sexo</h3>
+            <label>
+                <input type="radio"/ name="sexo"> Femenino
+            </label>
+            <label>
+                <input type="radio" name="sexo"/> Masculino
+            </label>
+
+            <h4>Mensaje</h4>
+            <textarea cols="40" rows="10">
+            </textarea>
+        </form>
+
+    </body>
+</html>

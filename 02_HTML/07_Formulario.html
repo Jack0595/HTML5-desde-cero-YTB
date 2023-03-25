@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formularios en HTML5</title>
+    </head>
+    <body>
+        <form method="" action="">
+            <fieldset>  <!-- es para enmarcar un formulario-->
+                <legend>Formulario de contacto</legend>  <!-- con est ele damos un nombre a area enmarcada-->
+                <label for="nombre">Nombre:</label><br>  <!-- label es para poder enlazar un texto a una parte del formulario-->
+                <input type="text" id="nombre" name=""/><br>  <!-- type es el tipo de dato de entrada  id debe de coincidir con for de label-->
+                <br>        <!-- text es para un linea de tetxo de no mas de 250 carateres-->
+                <label for="correo">Correo electronico:</label><br> 
+                <input type="email" id="correo"/><br>  <!-- type email es una linea de caracares de tamaño suficiente para un correo-->
+                <br>
+                <label for="edad">Edad:</label><br>
+                <input id="" type="number"/><br> <!-- solo permite numeros-->
+                <br>
+                <label for="contra">Contraseña:</label><br>
+                <input type="password" id="contra"/><br>  <!-- le agrega puntos al tetxo para no verlo-->
+                <br>
+                <label for="subs">  <!-- son los cuadros que puedes seleccionar varios-->
+                    <input type="checkbox" id="subs"/>Quiere suscribirse a mi canal!! 
+                </label>
+                <label for="subs2">
+                    <input type="checkbox" id="subs2"/> Me encanta tu canal
+                </label>
+                <br>
+                <br>
+                <label for="radio1">Sexo: </label> <!-- son los circulos solo puedes selecccionar uno-->
+                <input type="radio" name="radio1"/> Hombre
+                <input type="radio" name="radio1"/> Mujer
+                <br>
+                <br>
+                <label for="foto">Foto de perfil:</label><br> 
+                <input type="file" id="foto" name="file" multiple=true/> <!-- permite cargar un archivo-->
+                <br>
+                <br>
+                <label for="areatexto">Mensaje:</label><br> 
+                <textarea id="areatexto"></textarea> <!-- genera un area de texto de varios caracteres-->
+                <br>
+                <br>
+                <label for="color">Elegir color:</label><br>  
+                <input id="color" type="color"/><br>  <!-- perimte elegir un color de la escala-->
+                <br>
+                <label for="fecha">Elegir fecha:</label> 
+                <input id="fecha" type="date"/> <!-- calenadrio para seleccionar fecha-->
+                <br>
+                <br>
+                <input type="submit" value="Enviar datos"/>  <!-- ambo son 2 formas de generar botones-->
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
